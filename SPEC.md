@@ -58,7 +58,10 @@ parameters.
 
 The format is meant to be an interchange. Two directions are of particular interest:
 
-- **Vega-Lite ⇄ cxfigure** — mapping marks/encodings ⇄ `graphType` + the `*By` mappings.
+- **Vega-Lite → cxfigure** — a dependency-free reference converter ships in
+  [`converters/vega-lite/`](converters/vega-lite/): marks → `graphType`, `x`/`y` encodings →
+  axes, `color`/`size`/`shape` → the `*By` mappings, with unsupported constructs reported rather
+  than dropped. A `cxfigure → Vega-Lite` direction and a Plotly mapping are open contributions.
 - **Plotly figure JSON ⇄ cxfigure** — mapping traces ⇄ the data matrix + per-series config.
 
 Converters and documented mappings from other tools are welcome. If you maintain a visualization

@@ -1,0 +1,14 @@
+{
+  "mark": "point",
+  "data": {"values": [
+    {"weight": 65, "height": 170, "group": "A"},
+    {"weight": 80, "height": 182, "group": "B"},
+    {"weight": 55, "height": 160, "group": "A"}
+  ]},
+  "encoding": {
+    "x": {"field": "weight", "type": "quantitative"},
+    "y": {"field": "height", "type": "quantitative"},
+    "color": {"field": "group", "type": "nominal"}
+  },
+  "title": "Weight vs Height"
+}

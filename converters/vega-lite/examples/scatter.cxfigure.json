@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "data": [
+    [
+      "weight",
+      "height",
+      "group"
+    ],
+    [
+      65,
+      170,
+      "A"
+    ],
+    [
+      80,
+      182,
+      "B"
+    ],
+    [
+      55,
+      160,
+      "A"
+    ]
+  ],
+  "config": {
+    "graphType": "Scatter2D",
+    "xAxis": [
+      "weight"
+    ],
+    "yAxis": [
+      "height"
+    ],
+    "colorBy": "group",
+    "title": "Weight vs Height"
+  }
+}

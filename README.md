@@ -40,10 +40,11 @@ The schemas dereference at their `$id`:
 
 ## Interoperability
 
-The format is designed to be an interchange, not a silo. Converters to and from other figure
-formats (e.g. Vega-Lite and Plotly figure JSON) are welcome — see
-[`SPEC.md`](SPEC.md#interoperability). If you maintain a visualization tool and want a documented
-mapping or a shared interchange, please open a Discussion.
+The format is designed to be an interchange, not a silo. A dependency-free
+**[vega-lite → cxfigure converter](converters/vega-lite/)** ships here as a reference (and a
+starting point); a `cxfigure → Vega-Lite` direction and a Plotly figure-JSON mapping are open
+contributions — see [`SPEC.md`](SPEC.md#interoperability). If you maintain a visualization tool
+and want a documented mapping or a shared interchange, please open a Discussion.
 
 ## License
 

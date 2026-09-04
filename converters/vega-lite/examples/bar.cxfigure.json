@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "data": [
+    [
+      "category",
+      "amount"
+    ],
+    [
+      "A",
+      28
+    ],
+    [
+      "B",
+      55
+    ],
+    [
+      "C",
+      43
+    ]
+  ],
+  "config": {
+    "graphType": "Bar",
+    "xAxis": [
+      "category"
+    ],
+    "yAxis": [
+      "amount"
+    ]
+  }
+}
