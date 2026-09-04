@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "vars": ["Gene1", "Gene2"],
+      "smps": ["Control", "Treated"],
+      "data": [[3.1, 5.4], [2.2, 1.9]]
+    }
+  },
+  "config": {
+    "graphType": "Bar",
+    "title": "Expression",
+    "aFutureParameterAddedInAMinorBump": "value"
+  }
+}

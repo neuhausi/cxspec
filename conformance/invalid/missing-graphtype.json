@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "vars": ["Sample1"],
+      "smps": ["Weight"],
+      "data": [[65]]
+    }
+  },
+  "config": {
+    "title": "No graphType — invalid: config.graphType is required"
+  }
+}

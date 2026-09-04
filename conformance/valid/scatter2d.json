@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "vars": ["Sample1", "Sample2", "Sample3"],
+      "smps": ["Weight", "Height"],
+      "data": [[65, 170], [80, 182], [55, 160]]
+    }
+  },
+  "config": {
+    "graphType": "Scatter2D",
+    "title": "Weight vs Height",
+    "xAxis": ["Weight"],
+    "yAxis": ["Height"],
+    "showLegend": true
+  }
+}
