@@ -1,0 +1,11 @@
+{
+  "graphType": "Heatmap",
+  "mark": "rect",
+  "mapped": [
+    "colorSpectrum",
+    "xAxis",
+    "title"
+  ],
+  "dropped": [],
+  "lossless": true
+}

@@ -1,0 +1,41 @@
+{
+  "mark": "boxplot",
+  "data": {
+    "values": [
+      {
+        "dose": "low",
+        "len": 4.2
+      },
+      {
+        "dose": "low",
+        "len": 11.5
+      },
+      {
+        "dose": "low",
+        "len": 7.3
+      },
+      {
+        "dose": "high",
+        "len": 25.5
+      },
+      {
+        "dose": "high",
+        "len": 26.4
+      },
+      {
+        "dose": "high",
+        "len": 22.4
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "dose",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "len",
+      "type": "quantitative"
+    }
+  }
+}

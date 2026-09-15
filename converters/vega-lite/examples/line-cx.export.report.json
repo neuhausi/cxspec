@@ -1,0 +1,52 @@
+{
+  "graphType": "Line",
+  "mark": "line",
+  "mapped": [
+    "xAxis",
+    "graphOrientation",
+    "title"
+  ],
+  "dropped": [
+    {
+      "path": "/config/backgroundType",
+      "reason": "no Vega-Lite counterpart for backgroundType on a Line"
+    },
+    {
+      "path": "/config/blockContrast",
+      "reason": "no Vega-Lite counterpart for blockContrast on a Line"
+    },
+    {
+      "path": "/config/evenColor",
+      "reason": "no Vega-Lite counterpart for evenColor on a Line"
+    },
+    {
+      "path": "/config/legendInside",
+      "reason": "no Vega-Lite counterpart for legendInside on a Line"
+    },
+    {
+      "path": "/config/legendKeyBackgroundBorderColor",
+      "reason": "no Vega-Lite counterpart for legendKeyBackgroundBorderColor on a Line"
+    },
+    {
+      "path": "/config/legendKeyBackgroundColor",
+      "reason": "no Vega-Lite counterpart for legendKeyBackgroundColor on a Line"
+    },
+    {
+      "path": "/config/legendPosition",
+      "reason": "no Vega-Lite counterpart for legendPosition on a Line"
+    },
+    {
+      "path": "/config/panelBackgroundColor",
+      "reason": "no Vega-Lite counterpart for panelBackgroundColor on a Line"
+    },
+    {
+      "path": "/config/smpTextRotate",
+      "reason": "no Vega-Lite counterpart for smpTextRotate on a Line"
+    },
+    {
+      "path": "/config/theme",
+      "reason": "no Vega-Lite counterpart for theme on a Line"
+    }
+  ],
+  "lossless": false
+}

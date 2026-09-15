@@ -87,7 +87,7 @@
     var enc = vl.encoding || {};
     var config = { graphType: graphType };
 
-    var xf = fieldOf(enc.x), yf = fieldOf(enc.y);
+    var xf = fieldOf(enc.x), yf = fieldOf(enc.y) || fieldOf(enc.theta);   // arc: theta is the value channel
     if (xf) { config.xAxis = [xf]; }
     if (yf) { config.yAxis = [yf]; }
 

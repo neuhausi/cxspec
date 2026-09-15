@@ -1,0 +1,54 @@
+{
+  "graphType": "Pie",
+  "mark": "arc",
+  "mapped": [
+    "xAxis"
+  ],
+  "dropped": [
+    {
+      "path": "/data/y/desc",
+      "reason": "extra y layer (desc) has no Vega-Lite counterpart"
+    },
+    {
+      "path": "/data/y/vars",
+      "reason": "a Vega-Lite arc chart shows one series; only the first variable is exported"
+    },
+    {
+      "path": "/config/layout",
+      "reason": "no Vega-Lite counterpart for layout on a Pie"
+    },
+    {
+      "path": "/config/legendKeyBackgroundBorderColor",
+      "reason": "no Vega-Lite counterpart for legendKeyBackgroundBorderColor on a Pie"
+    },
+    {
+      "path": "/config/legendKeyBackgroundColor",
+      "reason": "no Vega-Lite counterpart for legendKeyBackgroundColor on a Pie"
+    },
+    {
+      "path": "/config/pieSegmentLabels",
+      "reason": "no Vega-Lite counterpart for pieSegmentLabels on a Pie"
+    },
+    {
+      "path": "/config/pieSegmentPrecision",
+      "reason": "no Vega-Lite counterpart for pieSegmentPrecision on a Pie"
+    },
+    {
+      "path": "/config/pieSegmentSeparation",
+      "reason": "no Vega-Lite counterpart for pieSegmentSeparation on a Pie"
+    },
+    {
+      "path": "/config/showPieGrid",
+      "reason": "no Vega-Lite counterpart for showPieGrid on a Pie"
+    },
+    {
+      "path": "/config/showPieSampleLabel",
+      "reason": "no Vega-Lite counterpart for showPieSampleLabel on a Pie"
+    },
+    {
+      "path": "/config/showTransition",
+      "reason": "no Vega-Lite counterpart for showTransition on a Pie"
+    }
+  ],
+  "lossless": false
+}

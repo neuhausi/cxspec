@@ -1,0 +1,41 @@
+{
+  "mark": "rect",
+  "data": {
+    "values": [
+      {
+        "gene": "G1",
+        "sample": "S1",
+        "expr": 2.1
+      },
+      {
+        "gene": "G1",
+        "sample": "S2",
+        "expr": 3.4
+      },
+      {
+        "gene": "G2",
+        "sample": "S1",
+        "expr": 0.5
+      },
+      {
+        "gene": "G2",
+        "sample": "S2",
+        "expr": 1.9
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "sample",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "gene",
+      "type": "nominal"
+    },
+    "color": {
+      "field": "expr",
+      "type": "quantitative"
+    }
+  }
+}

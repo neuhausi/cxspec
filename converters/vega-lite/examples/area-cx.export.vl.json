@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "area",
+  "title": "Area graph with one series",
+  "data": {
+    "values": [
+      {
+        "sample": "Jan",
+        "variable": "Value",
+        "value": 10
+      },
+      {
+        "sample": "Feb",
+        "variable": "Value",
+        "value": 11
+      },
+      {
+        "sample": "Mar",
+        "variable": "Value",
+        "value": 13
+      },
+      {
+        "sample": "Apr",
+        "variable": "Value",
+        "value": 4
+      },
+      {
+        "sample": "May",
+        "variable": "Value",
+        "value": 18
+      },
+      {
+        "sample": "Jun",
+        "variable": "Value",
+        "value": 21
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "sample",
+      "type": "nominal",
+      "title": "Month / First Quarters of 2024",
+      "sort": null
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Revenue (in Millions)"
+    }
+  }
+}

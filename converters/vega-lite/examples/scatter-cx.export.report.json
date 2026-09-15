@@ -1,0 +1,24 @@
+{
+  "graphType": "Scatter2D",
+  "mark": "point",
+  "mapped": [
+    "xAxis",
+    "yAxis",
+    "title"
+  ],
+  "dropped": [
+    {
+      "path": "/config/citation",
+      "reason": "no Vega-Lite counterpart for citation on a Scatter2D"
+    },
+    {
+      "path": "/config/decorations",
+      "reason": "no Vega-Lite counterpart for decorations on a Scatter2D"
+    },
+    {
+      "path": "/config/showTransition",
+      "reason": "no Vega-Lite counterpart for showTransition on a Scatter2D"
+    }
+  ],
+  "lossless": false
+}

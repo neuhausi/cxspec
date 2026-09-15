@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "x": {
+      "Factor1": [
+        "Lev : 1",
+        "Lev : 2",
+        "Lev : 3",
+        "Lev : 1",
+        "Lev : 2",
+        "Lev : 3"
+      ],
+      "Factor2": [
+        "Lev : A",
+        "Lev : B",
+        "Lev : A",
+        "Lev : B",
+        "Lev : A",
+        "Lev : B"
+      ],
+      "Factor3": [
+        "Lev : X",
+        "Lev : X",
+        "Lev : Y",
+        "Lev : Y",
+        "Lev : Z",
+        "Lev : Z"
+      ],
+      "Factor4": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+      ],
+      "Factor5": [
+        8,
+        16,
+        24,
+        32,
+        40,
+        48
+      ],
+      "Factor6": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ]
+    },
+    "y": {
+      "data": [
+        [
+          5,
+          10,
+          25,
+          40,
+          45,
+          50
+        ],
+        [
+          95,
+          80,
+          75,
+          70,
+          55,
+          40
+        ],
+        [
+          25,
+          30,
+          45,
+          60,
+          65,
+          70
+        ],
+        [
+          55,
+          40,
+          35,
+          30,
+          15,
+          1
+        ]
+      ],
+      "desc": [
+        "Magnitude1",
+        "Magnitude2"
+      ],
+      "smps": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "vars": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ]
+    },
+    "z": {
+      "Annt1": [
+        "Desc : 1",
+        "Desc : 2",
+        "Desc : 3",
+        "Desc : 4"
+      ],
+      "Annt2": [
+        "Desc : A",
+        "Desc : B",
+        "Desc : A",
+        "Desc : B"
+      ],
+      "Annt3": [
+        "Desc : X",
+        "Desc : X",
+        "Desc : Y",
+        "Desc : Y"
+      ],
+      "Annt4": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "Annt5": [
+        8,
+        16,
+        24,
+        32
+      ],
+      "Annt6": [
+        10,
+        20,
+        30,
+        40
+      ]
+    }
+  },
+  "config": {
+    "graphOrientation": "vertical",
+    "graphType": "Dotplot",
+    "lineType": "spline",
+    "showSmpOverlaysLegend": true,
+    "smpOverlayProperties": {
+      "Factor4": {
+        "color": "blue",
+        "showLegend": true,
+        "thickness": 50,
+        "type": "Bar"
+      },
+      "Factor5": {
+        "color": "grey",
+        "showLegend": true,
+        "thickness": 50,
+        "type": "Bar"
+      },
+      "Factor6": {
+        "color": "red",
+        "showLegend": true,
+        "thickness": 50,
+        "type": "Bar"
+      }
+    },
+    "smpOverlays": [
+      "Factor1",
+      "Factor2",
+      "Factor3",
+      "Factor4",
+      "Factor5",
+      "Factor6"
+    ],
+    "smpTextRotate": 45,
+    "smpTitle": "Collection of Samples",
+    "smpTitleFontStyle": "italic",
+    "subtitle": "Random Data",
+    "title": "Dotplot Graph",
+    "xAxis": [
+      "V1",
+      "V2",
+      "V3",
+      "V4"
+    ],
+    "xAxisTickFormat": "%.0f Mil."
+  }
+}

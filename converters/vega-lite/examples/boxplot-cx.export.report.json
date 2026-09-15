@@ -1,0 +1,33 @@
+{
+  "graphType": "Boxplot",
+  "mark": "boxplot",
+  "mapped": [
+    "groupingFactors",
+    "xAxis",
+    "graphOrientation",
+    "title"
+  ],
+  "dropped": [
+    {
+      "path": "/config/axisAlgorithm",
+      "reason": "no Vega-Lite counterpart for axisAlgorithm on a Boxplot"
+    },
+    {
+      "path": "/config/axisTitleFontStyle",
+      "reason": "no Vega-Lite counterpart for axisTitleFontStyle on a Boxplot"
+    },
+    {
+      "path": "/config/smpTextRotate",
+      "reason": "no Vega-Lite counterpart for smpTextRotate on a Boxplot"
+    },
+    {
+      "path": "/config/smpTitleFontStyle",
+      "reason": "no Vega-Lite counterpart for smpTitleFontStyle on a Boxplot"
+    },
+    {
+      "path": "/config/xAxis2Show",
+      "reason": "no Vega-Lite counterpart for xAxis2Show on a Boxplot"
+    }
+  ],
+  "lossless": false
+}

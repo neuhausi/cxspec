@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "data": [
+        [
+          30,
+          58,
+          87,
+          115,
+          120,
+          142,
+          145
+        ],
+        [
+          33,
+          69,
+          111,
+          156,
+          172,
+          203,
+          203
+        ],
+        [
+          30,
+          51,
+          75,
+          108,
+          115,
+          139,
+          140
+        ],
+        [
+          32,
+          62,
+          112,
+          167,
+          179,
+          209,
+          214
+        ],
+        [
+          30,
+          49,
+          81,
+          125,
+          142,
+          174,
+          177
+        ]
+      ],
+      "smps": [
+        118,
+        484,
+        664,
+        1004,
+        1231,
+        1372,
+        1582
+      ],
+      "vars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "config": {
+    "backgroundType": "panel",
+    "blockContrast": true,
+    "evenColor": "rgb(226,236,248)",
+    "graphOrientation": "vertical",
+    "graphType": "Line",
+    "legendInside": true,
+    "legendKeyBackgroundBorderColor": "rgba(255,255,255,0)",
+    "legendKeyBackgroundColor": "rgba(255,255,255,0)",
+    "legendPosition": "topLeft",
+    "panelBackgroundColor": "rgb(226,236,248)",
+    "smpTextRotate": 90,
+    "smpTitle": "Days Old",
+    "theme": "GGPlot",
+    "title": "Growth of Orange Trees",
+    "xAxisTitle": "Circumference (mm)",
+    "xAxis": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": {
+    "type": "point",
+    "filled": true
+  },
+  "title": "Average weekly household spending, in British pounds, on tobacco products and alcoholic beverages for each of the 11 regions of Great Britain.",
+  "data": {
+    "values": [
+      {
+        "name": "North",
+        "Alcohol": 6.47,
+        "Tobacco": 4.03
+      },
+      {
+        "name": "Yorkshire",
+        "Alcohol": 6.13,
+        "Tobacco": 3.76
+      },
+      {
+        "name": "Northeast",
+        "Alcohol": 6.19,
+        "Tobacco": 3.77
+      },
+      {
+        "name": "East Midlands",
+        "Alcohol": 4.89,
+        "Tobacco": 3.34
+      },
+      {
+        "name": "West Midlands",
+        "Alcohol": 5.63,
+        "Tobacco": 3.47
+      },
+      {
+        "name": "East Anglia",
+        "Alcohol": 4.52,
+        "Tobacco": 2.92
+      },
+      {
+        "name": "Southeast",
+        "Alcohol": 5.89,
+        "Tobacco": 3.2
+      },
+      {
+        "name": "Southwest",
+        "Alcohol": 4.79,
+        "Tobacco": 2.71
+      },
+      {
+        "name": "Wales",
+        "Alcohol": 3.53,
+        "Tobacco": 3.53
+      },
+      {
+        "name": "Scotland",
+        "Alcohol": 6.08,
+        "Tobacco": 4.51
+      },
+      {
+        "name": "Northern Ireland",
+        "Alcohol": 4.02,
+        "Tobacco": 4.56
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Alcohol",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "Tobacco",
+      "type": "quantitative"
+    }
+  }
+}

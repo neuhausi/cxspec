@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "data": [
+        [
+          4,
+          5,
+          4,
+          4,
+          7
+        ]
+      ],
+      "smps": [
+        "Cat 1",
+        "Cat 2",
+        "Cat 3",
+        "Cat 4",
+        "Cat 5"
+      ],
+      "vars": [
+        "Var 1"
+      ]
+    }
+  },
+  "config": {
+    "graphOrientation": "vertical",
+    "graphType": "Bar",
+    "showLegend": false,
+    "smpTextRotate": 90,
+    "smpTitle": "Categories",
+    "title": "Bar graph with a single series",
+    "xAxis": [
+      "Var 1"
+    ],
+    "xAxisTitle": "Var 1"
+  }
+}

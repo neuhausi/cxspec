@@ -1,0 +1,45 @@
+{
+  "graphType": "Dotplot",
+  "mark": "tick",
+  "mapped": [
+    "xAxis",
+    "graphOrientation",
+    "title",
+    "subtitle"
+  ],
+  "dropped": [
+    {
+      "path": "/data/y/desc",
+      "reason": "extra y layer (desc) has no Vega-Lite counterpart"
+    },
+    {
+      "path": "/config/lineType",
+      "reason": "no Vega-Lite counterpart for lineType on a Dotplot"
+    },
+    {
+      "path": "/config/showSmpOverlaysLegend",
+      "reason": "no Vega-Lite counterpart for showSmpOverlaysLegend on a Dotplot"
+    },
+    {
+      "path": "/config/smpOverlayProperties",
+      "reason": "no Vega-Lite counterpart for smpOverlayProperties on a Dotplot"
+    },
+    {
+      "path": "/config/smpOverlays",
+      "reason": "no Vega-Lite counterpart for smpOverlays on a Dotplot"
+    },
+    {
+      "path": "/config/smpTextRotate",
+      "reason": "no Vega-Lite counterpart for smpTextRotate on a Dotplot"
+    },
+    {
+      "path": "/config/smpTitleFontStyle",
+      "reason": "no Vega-Lite counterpart for smpTitleFontStyle on a Dotplot"
+    },
+    {
+      "path": "/config/xAxisTickFormat",
+      "reason": "no Vega-Lite counterpart for xAxisTickFormat on a Dotplot"
+    }
+  ],
+  "lossless": false
+}

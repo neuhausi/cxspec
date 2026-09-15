@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "line",
+  "title": "Growth of Orange Trees",
+  "data": {
+    "values": [
+      {
+        "sample": 118,
+        "variable": 1,
+        "value": 30
+      },
+      {
+        "sample": 484,
+        "variable": 1,
+        "value": 58
+      },
+      {
+        "sample": 664,
+        "variable": 1,
+        "value": 87
+      },
+      {
+        "sample": 1004,
+        "variable": 1,
+        "value": 115
+      },
+      {
+        "sample": 1231,
+        "variable": 1,
+        "value": 120
+      },
+      {
+        "sample": 1372,
+        "variable": 1,
+        "value": 142
+      },
+      {
+        "sample": 1582,
+        "variable": 1,
+        "value": 145
+      },
+      {
+        "sample": 118,
+        "variable": 2,
+        "value": 33
+      },
+      {
+        "sample": 484,
+        "variable": 2,
+        "value": 69
+      },
+      {
+        "sample": 664,
+        "variable": 2,
+        "value": 111
+      },
+      {
+        "sample": 1004,
+        "variable": 2,
+        "value": 156
+      },
+      {
+        "sample": 1231,
+        "variable": 2,
+        "value": 172
+      },
+      {
+        "sample": 1372,
+        "variable": 2,
+        "value": 203
+      },
+      {
+        "sample": 1582,
+        "variable": 2,
+        "value": 203
+      },
+      {
+        "sample": 118,
+        "variable": 3,
+        "value": 30
+      },
+      {
+        "sample": 484,
+        "variable": 3,
+        "value": 51
+      },
+      {
+        "sample": 664,
+        "variable": 3,
+        "value": 75
+      },
+      {
+        "sample": 1004,
+        "variable": 3,
+        "value": 108
+      },
+      {
+        "sample": 1231,
+        "variable": 3,
+        "value": 115
+      },
+      {
+        "sample": 1372,
+        "variable": 3,
+        "value": 139
+      },
+      {
+        "sample": 1582,
+        "variable": 3,
+        "value": 140
+      },
+      {
+        "sample": 118,
+        "variable": 4,
+        "value": 32
+      },
+      {
+        "sample": 484,
+        "variable": 4,
+        "value": 62
+      },
+      {
+        "sample": 664,
+        "variable": 4,
+        "value": 112
+      },
+      {
+        "sample": 1004,
+        "variable": 4,
+        "value": 167
+      },
+      {
+        "sample": 1231,
+        "variable": 4,
+        "value": 179
+      },
+      {
+        "sample": 1372,
+        "variable": 4,
+        "value": 209
+      },
+      {
+        "sample": 1582,
+        "variable": 4,
+        "value": 214
+      },
+      {
+        "sample": 118,
+        "variable": 5,
+        "value": 30
+      },
+      {
+        "sample": 484,
+        "variable": 5,
+        "value": 49
+      },
+      {
+        "sample": 664,
+        "variable": 5,
+        "value": 81
+      },
+      {
+        "sample": 1004,
+        "variable": 5,
+        "value": 125
+      },
+      {
+        "sample": 1231,
+        "variable": 5,
+        "value": 142
+      },
+      {
+        "sample": 1372,
+        "variable": 5,
+        "value": 174
+      },
+      {
+        "sample": 1582,
+        "variable": 5,
+        "value": 177
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "sample",
+      "type": "nominal",
+      "title": "Days Old",
+      "sort": null
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Circumference (mm)"
+    },
+    "color": {
+      "field": "variable",
+      "type": "nominal",
+      "sort": null
+    }
+  }
+}

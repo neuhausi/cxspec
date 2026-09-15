@@ -1,0 +1,24 @@
+{
+  "graphType": "Area",
+  "mark": "area",
+  "mapped": [
+    "xAxis",
+    "graphOrientation",
+    "title"
+  ],
+  "dropped": [
+    {
+      "path": "/config/colorScheme",
+      "reason": "no Vega-Lite counterpart for colorScheme on a Area"
+    },
+    {
+      "path": "/config/smpTextRotate",
+      "reason": "no Vega-Lite counterpart for smpTextRotate on a Area"
+    },
+    {
+      "path": "/config/titleScaleFontFactor",
+      "reason": "no Vega-Lite counterpart for titleScaleFontFactor on a Area"
+    }
+  ],
+  "lossless": false
+}

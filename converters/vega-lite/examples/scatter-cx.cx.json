@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0",
+  "data": {
+    "y": {
+      "data": [
+        [
+          6.47,
+          4.03
+        ],
+        [
+          6.13,
+          3.76
+        ],
+        [
+          6.19,
+          3.77
+        ],
+        [
+          4.89,
+          3.34
+        ],
+        [
+          5.63,
+          3.47
+        ],
+        [
+          4.52,
+          2.92
+        ],
+        [
+          5.89,
+          3.2
+        ],
+        [
+          4.79,
+          2.71
+        ],
+        [
+          3.53,
+          3.53
+        ],
+        [
+          6.08,
+          4.51
+        ],
+        [
+          4.02,
+          4.56
+        ]
+      ],
+      "smps": [
+        "Alcohol",
+        "Tobacco"
+      ],
+      "vars": [
+        "North",
+        "Yorkshire",
+        "Northeast",
+        "East Midlands",
+        "West Midlands",
+        "East Anglia",
+        "Southeast",
+        "Southwest",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ]
+    }
+  },
+  "config": {
+    "citation": "Moore, David S., and George P. McCabe (1989). Introduction to the Practice of Statistics, p. 179.",
+    "decorations": {
+      "marker": [
+        {
+          "sample": [
+            "Alcohol",
+            "Tobacco"
+          ],
+          "text": "Maybe an Outlier?",
+          "variable": "Northern Ireland",
+          "x": 0.45,
+          "y": 0.18
+        }
+      ]
+    },
+    "graphType": "Scatter2D",
+    "showTransition": false,
+    "title": "Average weekly household spending, in British pounds, on tobacco products\\nand alcoholic beverages for each of the 11 regions of Great Britain.",
+    "xAxis": [
+      "Alcohol"
+    ],
+    "yAxis": [
+      "Tobacco"
+    ]
+  }
+}

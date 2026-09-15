@@ -41,7 +41,7 @@ The schemas dereference at their `$id`:
 ## Interoperability
 
 The format is designed to be an interchange, not a silo. A dependency-free
-**[vega-lite → cxfigure converter](converters/vega-lite/)** ships here as a reference (and a
+**[vega-lite ⇄ cxfigure converters](converters/vega-lite/)** ship here as a reference in both directions — the export carries an explicit lossy-conversion report — (and a
 starting point); a `cxfigure → Vega-Lite` direction and a Plotly figure-JSON mapping are open
 contributions — see [`SPEC.md`](SPEC.md#interoperability). If you maintain a visualization tool
 and want a documented mapping or a shared interchange, please open a Discussion.

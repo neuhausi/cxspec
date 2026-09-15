@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "data": [
+    [
+      "category",
+      "value"
+    ],
+    [
+      "A",
+      4
+    ],
+    [
+      "B",
+      6
+    ],
+    [
+      "C",
+      10
+    ]
+  ],
+  "config": {
+    "graphType": "Pie",
+    "yAxis": [
+      "value"
+    ],
+    "colorBy": "category"
+  }
+}

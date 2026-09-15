@@ -1,4 +1,11 @@
-# Changelog — cxspec
+# Changelog
+
+## Unreleased
+
+- Added `converters/vega-lite/cxfigure-to-vega-lite.js`: cxfigure → Vega-Lite v5 export with an explicit
+  lossy-conversion report (`report.dropped[]` with JSON pointers, `report.lossless`); shared fixture
+  corpus now covers point/bar/line/area/tick/boxplot/rect/arc in both directions with round-trip tests.
+- `vega-lite-to-cxfigure.js`: `encoding.theta` (arc value channel) now maps to `config.yAxis`. — cxspec
 
 Spec versions are `MAJOR.MINOR` and independent of any engine/product version. See
 [COMPATIBILITY.md](COMPATIBILITY.md) for what a bump means.

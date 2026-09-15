@@ -1,0 +1,502 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "boxplot",
+  "title": "The Effect of Vitamin C on Tooth Growth in Guinea Pigs",
+  "data": {
+    "values": [
+      {
+        "sample": "Var1",
+        "variable": "len",
+        "value": 4.2,
+        "dose": "0.5",
+        "order": 1,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var2",
+        "variable": "len",
+        "value": 11.5,
+        "dose": "0.5",
+        "order": 2,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var3",
+        "variable": "len",
+        "value": 7.3,
+        "dose": "0.5",
+        "order": 3,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var4",
+        "variable": "len",
+        "value": 5.8,
+        "dose": "0.5",
+        "order": 4,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var5",
+        "variable": "len",
+        "value": 6.4,
+        "dose": "0.5",
+        "order": 5,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var6",
+        "variable": "len",
+        "value": 10,
+        "dose": "0.5",
+        "order": 6,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var7",
+        "variable": "len",
+        "value": 11.2,
+        "dose": "0.5",
+        "order": 7,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var8",
+        "variable": "len",
+        "value": 11.2,
+        "dose": "0.5",
+        "order": 8,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var9",
+        "variable": "len",
+        "value": 5.2,
+        "dose": "0.5",
+        "order": 9,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var10",
+        "variable": "len",
+        "value": 7,
+        "dose": "0.5",
+        "order": 10,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var11",
+        "variable": "len",
+        "value": 16.5,
+        "dose": "1",
+        "order": 1,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var12",
+        "variable": "len",
+        "value": 16.5,
+        "dose": "1",
+        "order": 2,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var13",
+        "variable": "len",
+        "value": 15.2,
+        "dose": "1",
+        "order": 3,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var14",
+        "variable": "len",
+        "value": 17.3,
+        "dose": "1",
+        "order": 4,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var15",
+        "variable": "len",
+        "value": 22.5,
+        "dose": "1",
+        "order": 5,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var16",
+        "variable": "len",
+        "value": 17.3,
+        "dose": "1",
+        "order": 6,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var17",
+        "variable": "len",
+        "value": 13.6,
+        "dose": "1",
+        "order": 7,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var18",
+        "variable": "len",
+        "value": 14.5,
+        "dose": "1",
+        "order": 8,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var19",
+        "variable": "len",
+        "value": 18.8,
+        "dose": "1",
+        "order": 9,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var20",
+        "variable": "len",
+        "value": 15.5,
+        "dose": "1",
+        "order": 10,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var21",
+        "variable": "len",
+        "value": 23.6,
+        "dose": "2",
+        "order": 1,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var22",
+        "variable": "len",
+        "value": 18.5,
+        "dose": "2",
+        "order": 2,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var23",
+        "variable": "len",
+        "value": 33.9,
+        "dose": "2",
+        "order": 3,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var24",
+        "variable": "len",
+        "value": 25.5,
+        "dose": "2",
+        "order": 4,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var25",
+        "variable": "len",
+        "value": 26.4,
+        "dose": "2",
+        "order": 5,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var26",
+        "variable": "len",
+        "value": 32.5,
+        "dose": "2",
+        "order": 6,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var27",
+        "variable": "len",
+        "value": 26.7,
+        "dose": "2",
+        "order": 7,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var28",
+        "variable": "len",
+        "value": 21.5,
+        "dose": "2",
+        "order": 8,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var29",
+        "variable": "len",
+        "value": 23.3,
+        "dose": "2",
+        "order": 9,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var30",
+        "variable": "len",
+        "value": 29.5,
+        "dose": "2",
+        "order": 10,
+        "supp": "VC"
+      },
+      {
+        "sample": "Var31",
+        "variable": "len",
+        "value": 15.2,
+        "dose": "0.5",
+        "order": 1,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var32",
+        "variable": "len",
+        "value": 21.5,
+        "dose": "0.5",
+        "order": 2,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var33",
+        "variable": "len",
+        "value": 17.6,
+        "dose": "0.5",
+        "order": 3,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var34",
+        "variable": "len",
+        "value": 9.7,
+        "dose": "0.5",
+        "order": 4,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var35",
+        "variable": "len",
+        "value": 14.5,
+        "dose": "0.5",
+        "order": 5,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var36",
+        "variable": "len",
+        "value": 10,
+        "dose": "0.5",
+        "order": 6,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var37",
+        "variable": "len",
+        "value": 8.2,
+        "dose": "0.5",
+        "order": 7,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var38",
+        "variable": "len",
+        "value": 9.4,
+        "dose": "0.5",
+        "order": 8,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var39",
+        "variable": "len",
+        "value": 16.5,
+        "dose": "0.5",
+        "order": 9,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var40",
+        "variable": "len",
+        "value": 9.7,
+        "dose": "0.5",
+        "order": 10,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var41",
+        "variable": "len",
+        "value": 19.7,
+        "dose": "1",
+        "order": 1,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var42",
+        "variable": "len",
+        "value": 23.3,
+        "dose": "1",
+        "order": 2,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var43",
+        "variable": "len",
+        "value": 23.6,
+        "dose": "1",
+        "order": 3,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var44",
+        "variable": "len",
+        "value": 26.4,
+        "dose": "1",
+        "order": 4,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var45",
+        "variable": "len",
+        "value": 20,
+        "dose": "1",
+        "order": 5,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var46",
+        "variable": "len",
+        "value": 25.2,
+        "dose": "1",
+        "order": 6,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var47",
+        "variable": "len",
+        "value": 25.8,
+        "dose": "1",
+        "order": 7,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var48",
+        "variable": "len",
+        "value": 21.2,
+        "dose": "1",
+        "order": 8,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var49",
+        "variable": "len",
+        "value": 14.5,
+        "dose": "1",
+        "order": 9,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var50",
+        "variable": "len",
+        "value": 27.3,
+        "dose": "1",
+        "order": 10,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var51",
+        "variable": "len",
+        "value": 25.5,
+        "dose": "2",
+        "order": 1,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var52",
+        "variable": "len",
+        "value": 26.4,
+        "dose": "2",
+        "order": 2,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var53",
+        "variable": "len",
+        "value": 22.4,
+        "dose": "2",
+        "order": 3,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var54",
+        "variable": "len",
+        "value": 24.5,
+        "dose": "2",
+        "order": 4,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var55",
+        "variable": "len",
+        "value": 24.8,
+        "dose": "2",
+        "order": 5,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var56",
+        "variable": "len",
+        "value": 30.9,
+        "dose": "2",
+        "order": 6,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var57",
+        "variable": "len",
+        "value": 26.4,
+        "dose": "2",
+        "order": 7,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var58",
+        "variable": "len",
+        "value": 27.3,
+        "dose": "2",
+        "order": 8,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var59",
+        "variable": "len",
+        "value": 29.4,
+        "dose": "2",
+        "order": 9,
+        "supp": "OJ"
+      },
+      {
+        "sample": "Var60",
+        "variable": "len",
+        "value": 23,
+        "dose": "2",
+        "order": 10,
+        "supp": "OJ"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "dose",
+      "type": "nominal",
+      "title": "dose",
+      "sort": null
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "len"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "graphType": "Bar",
+  "mark": "bar",
+  "mapped": [
+    "xAxis",
+    "graphOrientation",
+    "title"
+  ],
+  "dropped": [
+    {
+      "path": "/config/smpTextRotate",
+      "reason": "no Vega-Lite counterpart for smpTextRotate on a Bar"
+    }
+  ],
+  "lossless": false
+}

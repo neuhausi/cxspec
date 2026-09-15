@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "bar",
+  "title": "Bar graph with a single series",
+  "data": {
+    "values": [
+      {
+        "sample": "Cat 1",
+        "variable": "Var 1",
+        "value": 4
+      },
+      {
+        "sample": "Cat 2",
+        "variable": "Var 1",
+        "value": 5
+      },
+      {
+        "sample": "Cat 3",
+        "variable": "Var 1",
+        "value": 4
+      },
+      {
+        "sample": "Cat 4",
+        "variable": "Var 1",
+        "value": 4
+      },
+      {
+        "sample": "Cat 5",
+        "variable": "Var 1",
+        "value": 7
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "sample",
+      "type": "nominal",
+      "title": "Categories",
+      "sort": null
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Var 1"
+    }
+  }
+}

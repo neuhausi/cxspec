@@ -1,0 +1,34 @@
+{
+  "mark": "line",
+  "data": {
+    "values": [
+      {
+        "day": 1,
+        "temp": 12
+      },
+      {
+        "day": 2,
+        "temp": 15
+      },
+      {
+        "day": 3,
+        "temp": 11
+      },
+      {
+        "day": 4,
+        "temp": 18
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "day",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "temp",
+      "type": "quantitative"
+    }
+  },
+  "title": "Temperature"
+}
